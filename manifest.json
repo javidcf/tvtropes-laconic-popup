@@ -1,0 +1,21 @@
+{
+
+  "manifest_version": 2,
+  "name": "TV Tropes Laconic Popup",
+  "version": "1.0",
+
+  "description": "Shows a popup with the laconic description of tropes in TV Tropes (when available).",
+
+  "icons": {
+    "48": "tvtropes_laconic_popup_icon-48.png",
+    "96": "tvtropes_laconic_popup_icon-96.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://tvtropes.org/pmwiki/pmwiki.php/*"],
+      "js": ["tvtropes-laconic-popup.js"]
+    }
+  ]
+
+}
