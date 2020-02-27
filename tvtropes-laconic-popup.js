@@ -11,7 +11,7 @@
 (function() {
     'use strict';
 
-    const POPUP_WIDTH = '320';
+    const POPUP_WIDTH = 320;
     const POPUP_DELAY = 500;
     const POPUP_DISTANCE = 20;
 
